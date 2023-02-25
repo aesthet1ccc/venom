@@ -15,61 +15,63 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="blood">
-    <div class="container">
-      <header class="header">
-        <a href="" class="logo-link">
-          <img width="46" height="71" src="img/logo.png" alt="logo: Venom" class="logo-image" />
-        </a>
-        <nav class="nav">
-          <button class="menu-button">
-            <span class="menu-button-text">меню</span>
-            <img src="img/menu.svg" alt="icon: burger-menu" class="menu-button-icon" />
-          </button>
-          <button class="menu-close">
-            <span class="menu-close-text">закрыть</span>
-            <img src="img/arrow.svg" alt="icon: arrow-right" class="menu-close-icon" />
-          </button>
-          <ul class="nav-menu">
-            <li class="nav-menu-item">
-              <a href="about.html" class="nav-menu-link">о фильме</a>
-            </li>
-            <li class="nav-menu-item">
-              <a href="trailer.html" class="nav-menu-link">трейлер</a>
-            </li>
-            <li class="nav-menu-item">
-              <a href="actors.html" class="nav-menu-link">актёры</a>
-            </li>
-            <li class="nav-menu-item">
-              <a href="premier.html" class="nav-menu-link">премьера</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="film">
-        <div class="film-text">
-          <span class="film-date">16 сентября 2021</span>
-          <img src="img/venom-2.svg" alt="logo: venom 2" class="film-logo" />
-          <p class="film-description">
-            В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного
-            суперзлодея из комиксов Marvel.
-          </p>
+    <main>
+      <div class="container">
+        <header class="header">
+          <a href="/" class="logo-link">
+            <img width="46" height="71" src="img/logo.png" alt="Venom" class="logo-image" />
+          </a>
+          <nav class="nav">
+            <button class="menu-button">
+              <span class="menu-button-text">меню</span>
+              <img src="img/menu.svg" alt="icon: burger-menu" class="menu-button-icon" />
+            </button>
+            <button class="menu-close">
+              <span class="menu-close-text">закрыть</span>
+              <img src="img/arrow.svg" alt="icon: arrow-right" class="menu-close-icon" />
+            </button>
+            <ul class="nav-menu">
+              <li class="nav-menu-item">
+                <a href="about.html" class="nav-menu-link">о фильме</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="trailer.html" class="nav-menu-link">трейлер</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="actors.html" class="nav-menu-link">актёры</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="premier.html" class="nav-menu-link">премьера</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="film">
+          <div class="film-text">
+            <span class="film-date">16 сентября 2021</span>
+            <img src="img/venom-2.svg" alt="logo: venom 2" class="film-logo" />
+            <p class="film-description">
+              В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного
+              суперзлодея из комиксов Marvel.
+            </p>
+          </div>
+          <!-- /.film-text -->
+          <div class="button-group">
+            <button class="button buttton-primary">
+              <img width="15px" src="img/play.svg" alt="icon: play" class="button-icon" />
+              <span class="button-text">смотреть трейлер</span>
+            </button>
+            <a href="trailer.html" class="button button-link"></a>
+            <img width="15px" src="img/ticket.svg" alt="icon: ticket" class="button-icon" />
+            <span class="button-text">билеты на премьеру</span>
+          </div>
+          <!-- /.button-group -->
         </div>
-        <!-- /.film-text -->
-        <div class="button-group">
-          <button class="button buttton-primary">
-            <img width="15px" src="img/play.svg" alt="icon: play" class="button-icon" />
-            <span class="button-text">смотреть трейлер</span>
-          </button>
-          <a href="trailer.html" class="button button-link"></a>
-          <img width="15px" src="img/ticket.svg" alt="icon: ticket" class="button-icon" />
-          <span class="button-text">билеты на премьеру</span>
-        </div>
-        <!-- /.button-group -->
+        <!-- /.film -->
       </div>
-      <!-- /.film -->
-    </div>
-    <img src="img/venom.png" alt="photo: venom" class="venom" />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+      <img src="img/venom.png" alt="photo: venom" class="venom" />
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+    </main>
   </body>
 </html>
