@@ -1,4 +1,4 @@
-# venom- proekt glo academy
+# venom-
 Lobanov Alex
 В проекте используется:
 -html
